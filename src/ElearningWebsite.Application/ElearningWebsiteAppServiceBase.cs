@@ -6,6 +6,9 @@ using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using ElearningWebsite.Authorization.Users;
 using ElearningWebsite.MultiTenancy;
+using ElearningWebsite.IoC;
+using Abp.Dependency;
+using Abp.ObjectMapping;
 
 namespace ElearningWebsite
 {
@@ -18,9 +21,14 @@ namespace ElearningWebsite
 
         public UserManager UserManager { get; set; }
 
+        public IWorkScope  WorkScope { get; set; }
         protected ElearningWebsiteAppServiceBase()
         {
             LocalizationSourceName = ElearningWebsiteConsts.LocalizationSourceName;
+            WorkScope = IocManager.Instance.Resolve<IWorkScope>();
+            ObjectMapper = IocManager.Instance.Resolve<IObjectMapper>();
+            UserManager = IocManager.Instance.Resolve<UserManager>();
+            TenantManager = IocManager.Instance.Resolve<TenantManager>();
         }
 
         protected virtual async Task<User> GetCurrentUserAsync()

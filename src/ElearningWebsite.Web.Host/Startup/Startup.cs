@@ -70,6 +70,7 @@ namespace ElearningWebsite.Web.Host.Startup
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials()
+                        .AllowAnyOrigin()
                 )
             );
 

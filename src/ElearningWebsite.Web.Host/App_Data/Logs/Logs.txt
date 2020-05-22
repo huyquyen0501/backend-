@@ -1,0 +1,101 @@
+DEBUG 2020-05-21 16:17:26,119 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-21 16:17:26,662 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-21 16:17:26,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:26,709 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-21 16:17:27,098 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-21 16:17:27,099 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-21 16:17:27,099 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-21 16:17:27,099 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-21 16:17:28,001 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-21 16:17:29,804 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-21 16:17:29,881 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-21 16:17:29,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-21 16:17:29,905 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-21 16:17:29,912 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-21 16:17:30,237 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-21 16:17:30,435 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-21 16:17:30,526 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-21 16:17:30,526 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-21 16:17:30,535 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-21 16:17:30,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-21 16:17:30,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-21 16:17:30,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-21 16:17:30,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-21 16:17:30,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-21 16:17:30,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-21 16:17:40,442 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-21 16:17:41,362 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-21 16:17:43,077 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-21 16:17:43,613 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:17:50,403 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-21 16:17:52,534 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-21 16:17:52,546 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 2133.8517ms
+INFO  2020-05-21 16:17:52,549 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:17:52,570 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9495.4283ms 302 
+INFO  2020-05-21 16:17:52,631 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-21 16:17:52,687 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.9503ms 301 
+INFO  2020-05-21 16:17:52,695 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-21 16:17:53,013 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 303.9299ms 200 text/html;charset=utf-8
+INFO  2020-05-21 16:17:53,156 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-21 16:17:53,176 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-21 16:17:53,183 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-21 16:17:53,184 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-21 16:17:53,188 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-05-21 16:17:53,349 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-21 16:17:53,350 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-21 16:17:53,414 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-05-21 16:17:53,434 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 172.6143ms 200 application/javascript
+INFO  2020-05-21 16:17:53,450 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 197.5246ms 200 application/javascript
+INFO  2020-05-21 16:17:53,457 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-21 16:17:53,467 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 239.1272ms 200 text/css
+INFO  2020-05-21 16:17:53,479 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 310.0096ms 200 application/javascript
+INFO  2020-05-21 16:17:53,499 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-21 16:17:53,514 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 346.8279ms 200 application/javascript
+INFO  2020-05-21 16:17:53,779 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-21 16:17:53,805 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:17:53,836 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-21 16:17:53,892 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-21 16:17:53,931 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-21 16:17:53,976 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-21 16:17:53,982 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-21 16:17:53,992 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.4603ms 200 image/png
+INFO  2020-05-21 16:17:54,012 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 164.8405ms
+INFO  2020-05-21 16:17:54,016 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:17:54,026 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 250.2321ms 200 application/json; charset=utf-8
+INFO  2020-05-21 16:17:54,448 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 571.5111ms 200 application/json;charset=utf-8
+INFO  2020-05-21 16:17:58,854 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2020-05-21 16:17:58,868 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-21 16:17:58,871 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-05-21 16:17:58,879 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Controllers.TokenAuthController.Authenticate (ElearningWebsite.Web.Core)'
+INFO  2020-05-21 16:17:58,908 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[ElearningWebsite.Models.TokenAuth.AuthenticateResultModel] Authenticate(ElearningWebsite.Models.TokenAuth.AuthenticateModel) on controller ElearningWebsite.Controllers.TokenAuthController (ElearningWebsite.Web.Core).
+INFO  2020-05-21 16:18:00,738 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-21 16:18:00,751 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Controllers.TokenAuthController.Authenticate (ElearningWebsite.Web.Core) in 1836.9808ms
+INFO  2020-05-21 16:18:00,776 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Controllers.TokenAuthController.Authenticate (ElearningWebsite.Web.Core)'
+INFO  2020-05-21 16:18:00,791 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1930.0792ms 200 application/json; charset=utf-8
+INFO  2020-05-21 16:18:00,799 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-21 16:18:00,865 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6912ms 200 text/html;charset=utf-8
+INFO  2020-05-21 16:18:01,246 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-21 16:18:01,249 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-21 16:18:01,343 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-21 16:18:01,346 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-21 16:18:01,520 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:18:01,567 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-21 16:18:01,599 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 369.4645ms 200 application/json;charset=utf-8
+INFO  2020-05-21 16:18:01,605 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-21 16:18:01,614 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 38.8632ms
+INFO  2020-05-21 16:18:01,633 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-21 16:18:01,688 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 486.6762ms 200 application/json; charset=utf-8
