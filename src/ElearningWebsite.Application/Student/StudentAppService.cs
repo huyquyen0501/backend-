@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ElearningWebsite.Student
 {
-    public class StudentAppService:ElearningWebsiteAppServiceBase
+    public class StudentAppService:AppServiceBase
     {
         public async Task RegisterClass(StudentCourse input)
         {

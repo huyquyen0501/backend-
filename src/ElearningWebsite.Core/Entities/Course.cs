@@ -13,7 +13,9 @@ namespace ElearningWebsite.Entities
         public string Details { get; set; }
         public long UserId { get; set; }
         [ForeignKey(nameof(UserId))]
-        public User User { get; set; }
+        public virtual User User { get; set; }
         public string Code { get; set; }
+        [ForeignKey(nameof(CreatorUserId))]
+        public virtual User Creator { get; set; }
     }
 }

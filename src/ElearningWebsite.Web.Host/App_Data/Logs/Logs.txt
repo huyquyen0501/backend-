@@ -99,3 +99,753 @@ INFO  2020-05-21 16:18:01,605 [4    ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2020-05-21 16:18:01,614 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 38.8632ms
 INFO  2020-05-21 16:18:01,633 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
 INFO  2020-05-21 16:18:01,688 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 486.6762ms 200 application/json; charset=utf-8
+DEBUG 2020-05-22 11:56:54,329 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 11:56:55,060 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 11:56:55,087 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,098 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,100 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:55,106 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 11:56:55,256 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:56:55,256 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:56:55,256 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:56:55,256 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:56:55,945 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:56:57,629 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 11:56:57,706 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 11:56:57,723 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 11:56:57,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 11:56:57,739 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 11:56:58,046 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 11:56:58,226 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 11:56:58,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 11:56:58,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 11:56:58,319 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 11:56:58,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 11:56:58,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 11:56:58,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 11:56:58,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 11:56:58,320 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 11:56:58,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 11:57:02,950 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+FATAL 2020-05-22 11:57:18,486 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+ ---> System.Exception: Could not instantiate Microsoft.AspNetCore.Cors.Infrastructure.CorsService.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at ElearningWebsite.Web.Host.Startup.Startup.<ConfigureServices>b__3_2(CorsOptions options) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Web.Host\Startup\Startup.cs:line 60
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   --- End of inner exception stack trace ---
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.Core.Internal.ReflectionUtil.CreateInstance[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, Arguments additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, Arguments arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, Arguments arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+WARN  2020-05-22 11:57:31,848 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2020-05-22 11:59:05,445 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 11:59:05,549 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 11:59:05,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:05,592 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 11:59:05,719 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:59:05,719 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:59:05,719 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:59:05,719 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 11:59:06,241 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 11:59:08,176 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 11:59:08,247 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 11:59:08,274 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 11:59:08,285 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 11:59:08,297 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 11:59:08,665 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 11:59:08,853 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 11:59:08,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 11:59:08,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 11:59:08,954 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 11:59:08,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 11:59:12,783 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+DEBUG 2020-05-22 12:00:58,053 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 12:00:58,181 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 12:00:58,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:00:58,228 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 12:00:58,336 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 12:00:58,336 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 12:00:58,336 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 12:00:58,336 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 12:00:59,102 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 12:01:01,094 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 12:01:01,147 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 12:01:01,162 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 12:01:01,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 12:01:01,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 12:01:01,474 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 12:01:01,660 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 12:01:01,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 12:01:01,738 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 12:01:01,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 12:01:01,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 12:01:01,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 12:01:01,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 12:01:01,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 12:01:01,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 12:01:01,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 12:01:05,365 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-22 12:01:05,939 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-22 12:01:07,412 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-22 12:01:07,921 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 12:01:13,756 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 12:01:15,795 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-22 12:01:15,808 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 2041.8658ms
+INFO  2020-05-22 12:01:15,811 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 12:01:15,829 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8428.1664ms 302 
+INFO  2020-05-22 12:01:15,870 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-22 12:01:15,913 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.6151ms 301 
+INFO  2020-05-22 12:01:15,918 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 12:01:16,216 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 289.7917ms 200 text/html;charset=utf-8
+INFO  2020-05-22 12:01:16,323 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-22 12:01:16,354 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-22 12:01:16,471 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-22 12:01:16,536 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-22 12:01:16,576 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-22 12:01:16,595 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-22 12:01:16,608 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 280.416ms 200 application/javascript
+INFO  2020-05-22 12:01:16,630 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 212.2263ms 200 application/javascript
+INFO  2020-05-22 12:01:16,743 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-22 12:01:16,773 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 366.1107ms 200 application/javascript
+INFO  2020-05-22 12:01:16,791 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-22 12:01:16,797 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 468.2069ms 200 application/javascript
+INFO  2020-05-22 12:01:17,023 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 12:01:17,104 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 12:01:17,279 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 12:01:17,279 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 12:01:17,538 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 12:01:17,560 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 12:01:17,622 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 12:01:17,652 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 87.3442ms
+INFO  2020-05-22 12:01:17,656 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 12:01:17,659 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 636.5166ms 200 application/json; charset=utf-8
+INFO  2020-05-22 12:01:17,842 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 744.3751ms 200 application/json;charset=utf-8
+INFO  2020-05-22 12:01:30,136 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 12:01:30,147 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 12:01:30,152 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 12:01:30,197 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+ERROR 2020-05-22 12:01:31,991 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+System.InvalidOperationException: The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElearningWebsite.Teacher.TeacherAppService.GetAllPaging(GetAllCourseInput input) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Application\Teacher\TeacherAppService.cs:line 29
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-22 12:01:32,437 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 12:01:32,445 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) in 2244.3255ms
+INFO  2020-05-22 12:01:32,453 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 12:01:32,463 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2327.0579ms 500 application/json; charset=utf-8
+INFO  2020-05-22 12:01:57,283 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 12:01:57,311 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 12:01:57,320 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 12:01:57,336 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+ERROR 2020-05-22 12:02:13,645 [20   ] Mvc.ExceptionHandling.AbpExceptionFilter - The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+System.InvalidOperationException: The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElearningWebsite.Teacher.TeacherAppService.GetAllPaging(GetAllCourseInput input) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Application\Teacher\TeacherAppService.cs:line 29
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-22 12:02:13,652 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 12:02:13,656 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) in 16315.9789ms
+INFO  2020-05-22 12:02:13,663 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 12:02:13,671 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16411.9725ms 500 application/json; charset=utf-8
+DEBUG 2020-05-22 13:11:52,628 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 13:11:52,872 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 13:11:52,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,922 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,922 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:52,932 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 13:11:53,079 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:11:53,080 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:11:53,080 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:11:53,080 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:11:53,697 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:11:55,628 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 13:11:55,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 13:11:55,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 13:11:55,720 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 13:11:55,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 13:11:56,158 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 13:11:56,389 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 13:11:56,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 13:11:56,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 13:11:56,497 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 13:11:56,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 13:11:56,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 13:11:56,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 13:11:56,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 13:11:56,500 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 13:11:56,500 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 13:12:00,767 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-22 13:12:01,258 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-22 13:12:02,625 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-22 13:12:02,941 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:12:09,838 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:12:12,197 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:12:12,207 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5022ms.
+INFO  2020-05-22 13:12:12,547 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-22 13:12:12,559 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 2713.0558ms
+INFO  2020-05-22 13:12:12,566 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:12:12,586 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9962.7675ms 302 
+INFO  2020-05-22 13:12:12,620 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 13:12:12,883 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.5143ms 200 text/html;charset=utf-8
+INFO  2020-05-22 13:12:13,491 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 13:12:13,622 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 13:12:13,749 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:12:13,749 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:12:13,920 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:12:13,936 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:12:14,032 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:12:14,048 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.7741ms.
+INFO  2020-05-22 13:12:14,105 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:12:14,136 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 195.1819ms
+INFO  2020-05-22 13:12:14,139 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:12:14,147 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 691.1166ms 200 application/json; charset=utf-8
+INFO  2020-05-22 13:12:14,403 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 805.2918ms 200 application/json;charset=utf-8
+INFO  2020-05-22 13:12:23,321 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 13:12:23,333 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:12:23,337 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:12:23,399 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+INFO  2020-05-22 13:12:24,406 [18   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) - Validation state: Valid
+ERROR 2020-05-22 13:12:46,900 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+System.InvalidOperationException: The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElearningWebsite.Teacher.TeacherAppService.GetAllPaging(GetAllCourseInput input) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Application\Teacher\TeacherAppService.cs:line 28
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-22 13:12:47,388 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:12:47,398 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) in 23993.7965ms
+INFO  2020-05-22 13:12:47,402 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:12:47,409 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24088.8574ms 500 application/json; charset=utf-8
+DEBUG 2020-05-22 13:14:49,210 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 13:14:49,407 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 13:14:49,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:49,466 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 13:14:49,595 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:14:49,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:14:49,595 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:14:49,595 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:14:50,244 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:14:51,816 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 13:14:51,867 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 13:14:51,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 13:14:51,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 13:14:51,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 13:14:52,241 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 13:14:52,437 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 13:14:52,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 13:14:52,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 13:14:52,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 13:14:52,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 13:14:52,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 13:14:52,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 13:14:52,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 13:14:52,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 13:14:52,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 13:14:57,081 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-22 13:14:57,572 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-22 13:14:59,058 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-22 13:14:59,602 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:15:07,274 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:15:09,338 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:15:09,353 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5457ms.
+INFO  2020-05-22 13:15:10,068 [8    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-22 13:15:10,085 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 2797.8373ms
+INFO  2020-05-22 13:15:10,088 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:15:10,113 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11126.0854ms 302 
+INFO  2020-05-22 13:15:10,161 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 13:15:10,717 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 514.3351ms 200 text/html;charset=utf-8
+INFO  2020-05-22 13:15:11,342 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 13:15:11,525 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 13:15:11,676 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:15:11,677 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:15:11,839 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:15:11,856 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:15:11,964 [18   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:15:11,990 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 16.9355ms.
+INFO  2020-05-22 13:15:12,026 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:15:12,058 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 198.5107ms
+INFO  2020-05-22 13:15:12,065 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:15:12,069 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 784.0014ms 200 application/json; charset=utf-8
+INFO  2020-05-22 13:15:12,348 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 884.2172ms 200 application/json;charset=utf-8
+INFO  2020-05-22 13:15:26,016 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 13:15:26,021 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:15:26,025 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:15:26,085 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+INFO  2020-05-22 13:15:27,041 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) - Validation state: Valid
+ERROR 2020-05-22 13:15:40,388 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+System.InvalidOperationException: The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElearningWebsite.Teacher.TeacherAppService.GetAllPaging(GetAllCourseInput input) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Application\Teacher\TeacherAppService.cs:line 32
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-22 13:15:40,970 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:15:40,982 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) in 14892.2454ms
+INFO  2020-05-22 13:15:40,985 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:15:40,990 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14973.6962ms 500 application/json; charset=utf-8
+DEBUG 2020-05-22 13:16:39,614 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 13:16:39,792 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 13:16:39,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:39,839 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 13:16:39,974 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:16:39,974 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:16:39,975 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:16:39,975 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:16:40,552 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:16:42,173 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 13:16:42,226 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 13:16:42,241 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 13:16:42,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 13:16:42,271 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 13:16:42,628 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 13:16:42,832 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 13:16:42,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 13:16:42,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 13:16:42,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 13:16:42,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 13:16:42,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 13:16:42,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 13:16:42,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 13:16:42,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 13:16:42,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 13:16:47,432 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-22 13:16:48,016 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-22 13:16:49,737 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-22 13:16:50,109 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:16:57,236 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:16:59,364 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-22 13:16:59,380 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 2131.3273ms
+INFO  2020-05-22 13:16:59,384 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:16:59,406 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9674.516ms 302 
+INFO  2020-05-22 13:16:59,442 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 13:16:59,782 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 339.6238ms 200 text/html;charset=utf-8
+INFO  2020-05-22 13:17:00,169 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 13:17:00,276 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 13:17:00,403 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:17:00,403 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:17:00,569 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:17:00,584 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:17:00,700 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:17:00,757 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 142.7261ms
+INFO  2020-05-22 13:17:00,788 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:17:00,803 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 628.6193ms 200 application/json; charset=utf-8
+INFO  2020-05-22 13:17:01,234 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 940.47ms 200 application/json;charset=utf-8
+INFO  2020-05-22 13:17:07,591 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 13:17:07,599 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:17:07,604 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:17:07,667 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+DEBUG 2020-05-22 13:17:56,471 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-22 13:17:56,765 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-22 13:17:56,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.Web.Host.Startup.ElearningWebsiteWebHostModule, ElearningWebsite.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteWebCoreModule, ElearningWebsite.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteApplicationModule, ElearningWebsite.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.ElearningWebsiteCoreModule, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteEntityFrameworkModule, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:56,820 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-22 13:17:56,928 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:17:56,929 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:17:56,929 [1    ] o.Configuration.LanguageManagementConfig - Converted ElearningWebsite (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:17:56,929 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-22 13:17:57,881 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ElearningWebsite.EntityFrameworkCore.ElearningWebsiteDbContext, ElearningWebsite.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-22 13:17:59,822 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-22 13:17:59,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-22 13:17:59,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-22 13:17:59,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ElearningWebsite
+DEBUG 2020-05-22 13:17:59,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-22 13:18:00,359 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-22 13:18:00,583 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ElearningWebsite.MultiTenancy.Tenant, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ElearningWebsite.Authorization.Users.User, ElearningWebsite.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-22 13:18:00,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-22 13:18:00,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-22 13:18:00,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.CreateUserDto
+DEBUG 2020-05-22 13:18:00,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Users.Dto.UserDto
+DEBUG 2020-05-22 13:18:00,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-22 13:18:00,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-22 13:18:00,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.Roles.Dto.PermissionDto
+DEBUG 2020-05-22 13:18:00,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-22 13:18:00,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ElearningWebsite.MultiTenancy.Dto.TenantDto
+INFO  2020-05-22 13:18:07,774 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-22 13:18:08,434 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\huy11\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-22 13:18:10,772 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-22 13:18:11,086 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:22,641 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ElearningWebsite.Web.Host.Controllers.HomeController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:18:25,759 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:18:25,772 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5618ms.
+INFO  2020-05-22 13:18:26,751 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-22 13:18:26,774 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host) in 4113.9392ms
+INFO  2020-05-22 13:18:26,784 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.HomeController.Index (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:26,851 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16045.6024ms 302 
+INFO  2020-05-22 13:18:26,955 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 13:18:27,407 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 421.5625ms 200 text/html;charset=utf-8
+INFO  2020-05-22 13:18:28,809 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 13:18:29,438 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 13:18:30,149 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:18:30,151 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:18:32,202 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:32,293 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:18:32,713 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:18:32,806 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 16.8174ms.
+INFO  2020-05-22 13:18:33,398 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:18:33,433 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 1129.245ms
+INFO  2020-05-22 13:18:33,443 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:33,457 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5073.9106ms 200 application/json; charset=utf-8
+INFO  2020-05-22 13:18:34,266 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4957.3224ms 200 application/json;charset=utf-8
+INFO  2020-05-22 13:18:43,546 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-22 13:18:43,555 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.5298ms 200 text/html;charset=utf-8
+INFO  2020-05-22 13:18:48,125 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-22 13:18:48,223 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-22 13:18:48,239 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-22 13:18:48,260 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:18:48,273 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:18:48,308 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:48,370 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-22 13:18:48,390 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ElearningWebsite.Web.Host.Controllers.AntiForgeryController (ElearningWebsite.Web.Host).
+INFO  2020-05-22 13:18:48,484 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 243.399ms 200 application/json;charset=utf-8
+INFO  2020-05-22 13:18:48,917 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 261.7496ms 200 image/png
+INFO  2020-05-22 13:18:49,100 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) - Validation state: Valid
+INFO  2020-05-22 13:18:49,598 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.1017ms.
+INFO  2020-05-22 13:18:49,882 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:18:50,022 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host) in 1490.843ms
+INFO  2020-05-22 13:18:50,051 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Web.Host.Controllers.AntiForgeryController.SetCookie (ElearningWebsite.Web.Host)'
+INFO  2020-05-22 13:18:50,066 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2061.7705ms 200 application/json; charset=utf-8
+INFO  2020-05-22 13:19:01,756 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Teacher/GetAllPaging  
+INFO  2020-05-22 13:19:01,766 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-22 13:19:01,773 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:19:01,991 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPaging", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[ElearningWebsite.Teacher.Dto.GetAllCourseOutputDto]] GetAllPaging(ElearningWebsite.Teacher.Dto.GetAllCourseInput) on controller ElearningWebsite.Teacher.TeacherAppService (ElearningWebsite.Application).
+INFO  2020-05-22 13:19:03,135 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) - Validation state: Valid
+ERROR 2020-05-22 13:19:21,105 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+System.InvalidOperationException: The LINQ expression 'DbSet<Course>
+    .Where(c => __ef_filter__p_0 || !(((ISoftDelete)c).IsDeleted))
+    .Where(c => c.Title.Contains(
+        value: __input_NameOfCourse_0, 
+        comparisonType: OrdinalIgnoreCase))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to either AsEnumerable(), AsAsyncEnumerable(), ToList(), or ToListAsync(). See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.<VisitMethodCall>g__CheckTranslated|8_0(ShapedQueryExpression translated, <>c__DisplayClass8_0& )
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ElearningWebsite.Teacher.TeacherAppService.GetAllPaging(GetAllCourseInput input) in D:\workspace\BtlWeb\5.4.0\aspnet-core\src\ElearningWebsite.Application\Teacher\TeacherAppService.cs:line 33
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-05-22 13:19:21,704 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-22 13:19:21,724 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application) in 19719.7852ms
+INFO  2020-05-22 13:19:21,743 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ElearningWebsite.Teacher.TeacherAppService.GetAllPaging (ElearningWebsite.Application)'
+INFO  2020-05-22 13:19:21,753 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19994.2873ms 500 application/json; charset=utf-8
