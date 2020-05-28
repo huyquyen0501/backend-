@@ -1,11 +1,12 @@
-﻿using ElearningWebsite.Entities;
+﻿using Abp.Domain.Entities;
+using ElearningWebsite.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ElearningWebsite.Teacher.Dto
 {
-    public class GetAllCourseOutputDto
+    public class GetAllCourseOutputDto:Entity<long>
     {
         public string? Tilte { get; set; }
         public string? Creator { get; set; }
