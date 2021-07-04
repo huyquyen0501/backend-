@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ElearningWebsite.Student.Dto
 {
-    public class StudentCouresDto
+    
+    public class StudentCouresInputDto
     {
 
     }
